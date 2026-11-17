@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects | Koushik B K</title>
+    <meta name="description" content="Portfolio projects - database systems, 3D design, and analytics." />
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container nav-inner">
+        <a class="brand" href="./index.html" aria-label="Go to home">
+          <span class="brand-mark" aria-hidden="true">KB</span>
+          <span>
+            <span class="brand-text">Koushik</span>
+            <span class="brand-sub">Computer Science and Design Undergraduate</span>
+          </span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-label="Toggle navigation"
+          aria-controls="primary-nav"
+          aria-expanded="false"
+        >
+          <span class="nav-toggle-bars" aria-hidden="true"></span>
+        </button>
+
+        <nav id="primary-nav" class="nav-links" aria-label="Primary navigation">
+          <a class="nav-link" data-nav-link href="./index.html">Home</a>
+          <a class="nav-link" data-nav-link href="./about.html">About</a>
+          <a class="nav-link" data-nav-link href="./skills.html">Skills</a>
+          <a class="nav-link" data-nav-link href="./projects.html">Projects</a>
+          <a class="nav-link" data-nav-link href="./contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <div class="page-transition" aria-hidden="true"></div>
+
+    <main id="content">
+      <section class="container section reveal" data-reveal>
+        <div style="margin-bottom: 1.3rem;">
+          <h2 style="margin:0; font-size:1.8rem; letter-spacing:-.02em;">Projects</h2>
+          <p style="margin:.6rem 0 0; color: var(--muted); line-height:1.7;">
+            Projects that reflect academic work, mini projects, and major project experience from the resume.
+          </p>
+        </div>
+
+        <div class="grid-2">
+          <article class="glass card reveal" data-reveal>
+            <h3><i class="fa-solid fa-database" aria-hidden="true"></i>College Database Management System</h3>
+            <p style="margin-bottom:.9rem;">
+              Academic project developing a web-based system to manage college data, including students, faculty, courses, attendance, exams, and results.
+            </p>
+            <ul class="list">
+              <li><i class="fa-solid fa-check" aria-hidden="true"></i>Built a software webpage to manage academic and administrative information efficiently.</li>
+              <li><i class="fa-solid fa-check" aria-hidden="true"></i>Organized records for students, faculty, courses, attendance, exams, and results.</li>
+              <li><i class="fa-solid fa-check" aria-hidden="true"></i>Focused on structured data storage and streamlined retrieval for campus operations.</li>
+            </ul>
+            <div class="project-meta">
+              <span class="tech"><i class="fa-brands fa-html5" aria-hidden="true"></i>&nbsp; HTML</span>
+              <span class="tech"><i class="fa-brands fa-java" aria-hidden="true"></i>&nbsp; Java</span>
+            </div>
+          </article>
+
+          <article class="glass card reveal" data-reveal>
+            <h3><i class="fa-solid fa-car" aria-hidden="true"></i>3D Car Design Visualization and Customization Platform</h3>
+            <p style="margin-bottom:.9rem;">
+              Developed a platform using HTML, CSS, Java, and database connectivity with role-based logins for Admin, User, and Showroom.
+            </p>
+            <ul class="list">
+              <li><i class="fa-solid fa-check" aria-hidden="true"></i>Implemented interactive 3D customization for existing and new vehicles.</li>
+              <li><i class="fa-solid fa-check" aria-hidden="true"></i>Enabled add/delete car management with distinct access roles.</li>
+              <li><i class="fa-solid fa-check" aria-hidden="true"></i>Designed a user-friendly interface for design exploration and showroom workflows.</li>
+            </ul>
+            <div class="project-meta">
+              <span class="tech"><i class="fa-brands fa-html5" aria-hidden="true"></i>&nbsp; HTML</span>
+              <span class="tech"><i class="fa-brands fa-css3-alt" aria-hidden="true"></i>&nbsp; CSS</span>
+              <span class="tech"><i class="fa-brands fa-java" aria-hidden="true"></i>&nbsp; Java</span>
+            </div>
+          </article>
+
+          <article class="glass card reveal" data-reveal>
+            <h3><i class="fa-solid fa-chart-bar" aria-hidden="true"></i>Big Data Analytics for Socioeconomic Status Assessment in Rural India</h3>
+            <p style="margin-bottom:.9rem;">
+              Ongoing project focused on analyzing rural socioeconomic data using census, survey, and government datasets.
+            </p>
+            <ul class="list">
+              <li><i class="fa-solid fa-check" aria-hidden="true"></i>Developing a data-driven system to support poverty prediction and development assessment.</li>
+              <li><i class="fa-solid fa-check" aria-hidden="true"></i>Applying data preprocessing and machine learning to improve analytical outcomes.</li>
+              <li><i class="fa-solid fa-check" aria-hidden="true"></i>Working on socioeconomic analysis for meaningful rural development insights.</li>
+            </ul>
+            <div class="project-meta">
+              <span class="tech"><i class="fa-solid fa-database" aria-hidden="true"></i>&nbsp; SQL</span>
+              <span class="tech"><i class="fa-solid fa-brain" aria-hidden="true"></i>&nbsp; Machine Learning</span>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <span class="mini-mark" aria-hidden="true">KB</span>
+          <span>Koushik B K</span>
+        </div>
+        <span>© <span id="year"></span> Koushik. All rights reserved.</span>
+      </div>
+    </footer>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    <script src="./script.js"></script>
+  </body>
+</html>
+
+
+
+
